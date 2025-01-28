@@ -1,0 +1,27 @@
+header {
+    background-color: $secondary-color;
+    font-family: $font-family-alt;
+
+    .navbar-nav {
+        .nav-link {
+            &:focus {
+                color: darken($primary-color, 20%);
+                font-weight: bold;
+                transition: color 0.3s ease-in-out;
+            }
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+
+    h1 {
+        padding: 10px;
+        border-radius: 5px;
+        margin: 0 auto;
+        display: inline-block;
+        background-color: $primary-color;
+        color: $text-color;
+    }
+}

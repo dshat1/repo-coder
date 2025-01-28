@@ -67,14 +67,12 @@ h1 {
 .hero h1 {
     font-size: 55px;
     color: rgb(255, 0, 0);
-    text-shadow: 50%;
     max-width: 100%;
 }
 
 .hero h2 {
     font-size: 30px;
     color: rgb(158, 24, 24);
-    text-shadow: 50%;
 }
 
 .hero p {

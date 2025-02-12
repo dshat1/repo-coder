@@ -228,11 +228,9 @@ footer {
 
 .shaders-download {
     padding-top: 40px;
-    display: block;
     max-width: 100%;
     padding-left: 160px;
     padding-right: 160px;
-    padding-top: 40px;
     padding-bottom: 40px;
     background-color: black;
 }
